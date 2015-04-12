@@ -60,3 +60,80 @@ Library packaging and distribution for Ruby.
 ## Setup Sublime Editor ##
 
 Download Sublime 3 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+
+## Intro to Ruby Language ##
+
+- IRB: Interactive RuBy
+
+```
+$ irb
+4+4 # 8
+```
+
+- Please fire up irb on your computer and try this out!
+Everything evaluates to something
+
+
+`(2+2).zero? # false`
+`puts "foo" # foo`
+`# is a comment`
+
+- functions
+```
+def inc x
+  x + 1
+end
+
+def add(a,b)
+  a + b
+end
+```
+- Loops 
+```
+for i in 0..5
+   puts "Value of local variable is #{i}"
+end
+
+(0..5).each do |i|
+   puts "Value of local variable is #{i}"
+end
+```
+- more inline functions  
+`"Hello".gsub 'H', 'h' # "hello"`
+
+`"Hello".gsub("H", "h").reverse # "olleh"`
+-Variables are declared implicitly
+
+```
+first_name = "Santa"
+last_name = "Claus"
+full_name = first_name + last_name
+# "SantaClaus"
+```
+- String interpolation
+
+```
+puts "boyz #{1 + 1} men"
+# "boyz 2 men"
+```
+- Built-in Types
+Numbers
+` 42`
+Booleans
+```
+true
+false
+```
+Strings
+```
+"apple"
+'banana'
+```
+Symbols
+`:apple`
+Arrays
+`["apple", "banana"]`
+Hashes
+`{:apple => 'red', :banana => 'yellow'}`
+Ranges
+`(1..10)`
