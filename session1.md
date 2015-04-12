@@ -102,7 +102,8 @@ end
 `"Hello".gsub 'H', 'h' # "hello"`
 
 `"Hello".gsub("H", "h").reverse # "olleh"`
--Variables are declared implicitly
+
+- Variables are declared implicitly
 
 ```
 first_name = "Santa"
