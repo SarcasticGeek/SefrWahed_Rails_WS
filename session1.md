@@ -17,18 +17,24 @@
 -Open Universal USB Installer ,then choose Ubuntu on Linux Distribution ,then select ubuntu iso file ,then choose your USB flash memory with formatting selected ,then choose max to create virtual memory to OS (8GB recommended) ,then click to Select button and wait to be done
 -restart your computer and boot your flash memory ,then choose get Ubuntu without installing 
 ## some tips in Linux Terminal ##
+
 ## Setup Ruby on Linux ##
 - open Terminal ,copy and paste to install Ruby with some dependencies for it.
-> 
+ 
 
-    sudo apt-get update
-	sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev ruby-full
+```
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev ruby-full
+```
 - Install nodejs
->
+```
+sudo add-apt-repository ppa:chris-lea/node.js
 
-	sudo add-apt-repository ppa:chris-lea/node.js
-	sudo apt-get update
-	sudo apt-get install nodejs
+sudo apt-get update
+
+sudo apt-get install nodejs
+```
+
 ## Setup Ruby on Windows ##
 - download [Ruby 2 Installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p643-x64.exe "Ruby 2 Installer")
 - download [Devkit for ruby 2](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe "Devkit")
