@@ -12,7 +12,7 @@
 ----------
 
 ## Linux Setup ##
-- download [Universal USB Installer](www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ "Universal USB Installer")
+- download [Universal USB Installer](http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ "Universal USB Installer")
 - download [Ubuntu 14.04](http://www.ubuntu.com/download/desktop/contribute/?version=14.04.2&architecture=amd64 "Ubuntu 14.04")
 - Bring USB Flash Memory driver (greater than 4GB)
 -Open Universal USB Installer ,then choose Ubuntu on Linux Distribution ,then select ubuntu iso file ,then choose your USB flash memory with formatting selected ,then choose max to create virtual memory to OS (8GB recommended) ,then click to Select button and wait to be done
