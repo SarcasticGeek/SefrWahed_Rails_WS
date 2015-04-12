@@ -41,7 +41,7 @@ sudo apt-get install nodejs
 
 - download [Ruby 2 Installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p643-x64.exe "Ruby 2 Installer")
 - download [Devkit for ruby 2](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe "Devkit")
-- open Ruby Installer ,while installing check those ![](C:\Users\user\Desktop\snapshot1.jpg)
+- open Ruby Installer ,while installing check those ![](https://raw.githubusercontent.com/SarcasticGeek/SefrWahed_Rails_WS/master/snpashot1.JPG)
 - open cmd as Admin 
 - write
 `ruby -v`
@@ -138,3 +138,33 @@ Hashes
 `{:apple => 'red', :banana => 'yellow'}`
 Ranges
 `(1..10)`
+## OOP ##
+```
+# define a class
+class Box
+   # constructor method
+   def initialize(w,h)
+      @width, @height = w, h
+   end
+   # instance method
+   def getArea
+      @width * @height
+   end
+end
+
+# define a subclass
+class BigBox < Box
+
+   # add a new instance method
+   def printArea
+      @area = @width * @height
+      puts "Big box area is : #@area"
+   end
+end
+
+# create an object
+box = BigBox.new(10, 20)
+
+# print the area
+box.printArea()
+```
