@@ -39,8 +39,8 @@ sudo apt-get install nodejs
 
 ## Setup Ruby on Windows ##
 
-- download [Ruby 2 Installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p643-x64.exe "Ruby 2 Installer")
-- download [Devkit for ruby 2](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe "Devkit")
+- download [Ruby 2 Installer windows x64](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p643-x64.exe "Ruby 2 Installer") or [Ruby 2 Installer windows x86](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p643.exe)
+- download [Devkit for ruby 2 windows x64](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe "Devkit") or [Devkit for ruby 2 windows x86](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
 - open Ruby Installer ,while installing check those ![](https://raw.githubusercontent.com/SarcasticGeek/SefrWahed_Rails_WS/master/snpashot1.JPG)
 - open cmd as Admin 
 - write
