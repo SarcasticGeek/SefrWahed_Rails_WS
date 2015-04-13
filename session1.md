@@ -15,12 +15,12 @@
 - download [Universal USB Installer](http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ "Universal USB Installer")
 - download [Ubuntu 14.04](http://www.ubuntu.com/download/desktop/contribute/?version=14.04.2&architecture=amd64 "Ubuntu 14.04")
 - Bring USB Flash Memory driver (greater than 4GB)
--Open Universal USB Installer ,then choose Ubuntu on Linux Distribution ,then select ubuntu iso file ,then choose your USB flash memory with formatting selected ,then choose max to create virtual memory to OS (8GB recommended) ,then click to Select button and wait to be done
--restart your computer and boot your flash memory ,then choose get Ubuntu without installing 
+- Open Universal USB Installer ,then choose Ubuntu on Linux Distribution ,then select ubuntu iso file ,then choose your USB flash memory with formatting selected ,then choose max to create virtual memory to OS (8GB recommended) ,then click to Select button and wait to be done
+- restart your computer and boot your flash memory ,then choose get Ubuntu without installing 
 
 ## some tips in Linux Terminal ##
 
--tips with lifehacker : [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+- tips with lifehacker : [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 
 ## Setup Ruby on Linux ##
 - open Terminal ,copy and paste to install Ruby with some dependencies for it.
